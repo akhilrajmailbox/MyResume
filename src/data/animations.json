@@ -202,11 +202,6 @@
     , "outclass": "fadeOutDown"
     }
   , {
-      "selector": "#portfolio .section-title"
-    , "inclass":  "fadeInDown"
-    , "outclass": "fadeOutDown"
-    }
-  , {
       "selector": "#contact .section-title"
     , "inclass":  "fadeInDown"
     , "outclass": "fadeOutDown"
