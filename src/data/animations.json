@@ -87,11 +87,6 @@
     , "outclass": "fadeOutRightBig"
     }
   , {
-      "selector": "#scope-09"
-    , "inclass":  "bounceInLeft"
-    , "outclass": "bounceOutLeft"
-    }
-  , {
       "selector": "#selfie h3"
     , "inclass":  "fadeInRight"
     , "outclass": "fadeOutRight"
