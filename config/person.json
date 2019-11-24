@@ -9,15 +9,15 @@
   , "nick": "Akhil Raj"
   , "abbr": "akhilrajmailbox"
   , "email": "@{./abbr}@gmail.com"
-  , "url":   "http://nothing"
+  , "url":   "http://ec2-34-202-205-28.compute-1.amazonaws.com/"
   , "bio": {
       "birth": "October &apos;93"
     , "location": {
-        "country": "Ukraine"
-      , "city": "Kyiv"
+        "country": "India"
+      , "city": "Kochi"
       , "full": "@{./country}, @{./city}"
-      , "lat": 50.436336
-      , "lng": 30.488619
+      , "lat": 9.9312
+      , "lng": 76.2673
       }
     , "citizenship": "Indian"
     }
@@ -47,8 +47,8 @@
       }
     }
   , "contacts": {
-      "cell": "aaaa=="
-    , "email": "aaaa=="
+      "cell": "nothing"
+    , "email": "bWFpbHRvOmFraGlscmFqbWFpbGJveHpAZ21haWwuY29tCg=="
     }
   }
 }
