@@ -87,11 +87,6 @@
     , "outclass": "fadeOutRightBig"
     }
   , {
-      "selector": "#scope-09"
-    , "inclass":  "bounceInLeft"
-    , "outclass": "bounceOutLeft"
-    }
-  , {
       "selector": "#selfie h3"
     , "inclass":  "fadeInRight"
     , "outclass": "fadeOutRight"
@@ -150,16 +145,6 @@
       "selector": "#whatido-08"
     , "inclass":  "fadeInRightBig"
     , "outclass": "fadeOutRightBig"
-    }
-  , {
-      "selector": "#whatido-09"
-    , "inclass":  "bounceInLeft"
-    , "outclass": "bounceOutLeft"
-    }
-  , {
-      "selector": "#whatido-10"
-    , "inclass":  "rotateInUpRight"
-    , "outclass": "rotateOutUpRight"
     }
   , {
       "selector": "#resume .section-title"
