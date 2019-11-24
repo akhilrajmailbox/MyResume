@@ -2,59 +2,53 @@
   "__parent": "./config.json"
 , "person": {
     "name": {
-      "first": "Tomas"
-    , "last": "Baltrushaitis"
+      "first": "Raj"
+    , "last": "Akhil"
     , "full": "@{./last} @{./first}"
     }
-  , "nick": "Tom&acute;AS"
-  , "abbr": "tbaltrushaitis"
+  , "nick": "Akhil Raj"
+  , "abbr": "akhilrajmailbox"
   , "email": "@{./abbr}@gmail.com"
-  , "url":   "http://bit.ly/tomascv"
+  , "url":   "http://nothing"
   , "bio": {
-      "birth": "October &apos;82"
+      "birth": "October &apos;93"
     , "location": {
-        "country": "Ukraine"
-      , "city": "Kyiv"
+        "country": "India"
+      , "city": "Kochi"
       , "full": "@{./country}, @{./city}"
-      , "lat": 50.436336
-      , "lng": 30.488619
+      , "lat": 9.9312
+      , "lng": 76.2673
       }
-    , "citizenship": "Ukrainian"
+    , "citizenship": "Indian"
     }
   , "home": {
-      "pos-prefix": "full-stack"
-    , "pos-title": "engineer"
-    , "pos-tags": "#high #skilled #experienced #guru"
+      "pos-prefix": "DevOps"
+    , "pos-title": "Engineer"
+    , "pos-tags": "#high #skilled #experienced #Devops"
     }
   , "socials": {
       "li": {
         "name": "linkedin"
       , "title": "Linkedin profile"
       , "icon": "fab fa-linkedin"
-      , "url": "http://bit.ly/tomas-in"
+      , "url": "https://www.linkedin.com/in/akhil-raj-aa9a9a145/"
       }
     , "git": {
         "name": "git"
       , "title": "Github account"
       , "icon": "fab fa-github"
-      , "url": "http://bit.ly/tomas-git"
-      }
-    , "bb": {
-        "name": "bitbucket"
-      , "title": "BitBucket repos"
-      , "icon": "fab fa-bitbucket"
-      , "url": "http://bit.ly/tomas-bb"
+      , "url": "https://github.com/akhilrajmailbox"
       }
     , "docker": {
         "name": "dockerhub"
       , "title": "Docker Hub"
       , "icon": "fab fa-docker"
-      , "url": "http://bit.ly/tomas-hub"
+      , "url": "https://hub.docker.com/u/akhilrajmailbox/"
       }
     }
   , "contacts": {
-      "cell": "KzM4MCg2NykgNzgtemVyby0zMS0xOA=="
-    , "email": "bWFpbHRvOnRiYWx0cnVzaGFpdGlzQGdtYWlsLmNvbQ=="
+      "cell": "aaaa=="
+    , "email": "aaaa=="
     }
   }
 }
