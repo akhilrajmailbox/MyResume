@@ -40,5 +40,11 @@ elif [[ ${1} == rebuild ]] ; then
     artifactbuild
     webservice
 else
-    echo "no input match"
+cat << EOF
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+    options :
+        build
+        rebuild
+_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+EOF
 fi
