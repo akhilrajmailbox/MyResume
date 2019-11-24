@@ -6,10 +6,10 @@
     , "last": "Akhil"
     , "full": "@{./last} @{./first}"
     }
-  , "nick": "Akhil Raj"
+  , "nick": "Akhil&acute;Raj"
   , "abbr": "akhilrajmailbox"
   , "email": "@{./abbr}@gmail.com"
-  , "url":   "http://ec2-34-202-205-28.compute-1.amazonaws.com/"
+  , "url":   "https://github.com/@{./abbr}"
   , "bio": {
       "birth": "October &apos;93"
     , "location": {
