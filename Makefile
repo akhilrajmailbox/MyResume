@@ -153,7 +153,7 @@ setup: setup-deps ;
 setup-deps:
 	@ npm i -g bower ;
 	@ npm i ;
-	@ bower i --production ;
+	@ bower i --production --allow-root ;
 	@ touch setup-deps
 
 build:
