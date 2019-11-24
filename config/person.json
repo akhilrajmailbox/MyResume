@@ -13,8 +13,8 @@
   , "bio": {
       "birth": "October &apos;93"
     , "location": {
-        "country": "India"
-      , "city": "Kochi"
+        "country": "Ukraine"
+      , "city": "Kyiv"
       , "full": "@{./country}, @{./city}"
       , "lat": 50.436336
       , "lng": 30.488619
