@@ -16,8 +16,8 @@
         "country": "India"
       , "city": "Kochi"
       , "full": "@{./country}, @{./city}"
-      , "lat": 9.9312
-      , "lng": 76.2673
+      , "lat": 50.436336
+      , "lng": 30.488619
       }
     , "citizenship": "Indian"
     }
