@@ -160,34 +160,34 @@ jQuery(function ($) {
     }
   });
 
-  // ---------------------------------------------------------------------------
-  //  Portfolio
-  // ---------------------------------------------------------------------------
+  // // ---------------------------------------------------------------------------
+  // //  Portfolio
+  // // ---------------------------------------------------------------------------
 
-  (function () {
+  // (function () {
 
-    var $grid = $('#og-grid');
+  //   var $grid = $('#og-grid');
 
-    var shuffleInstance = new window.Shuffle($grid, {
-      itemSelector: '.portfolio-item'
-    });
+  //   var shuffleInstance = new window.Shuffle($grid, {
+  //     itemSelector: '.portfolio-item'
+  //   });
 
-    /* reshuffle when user clicks a filter item */
-    $('#filter a').click(function (e) {
-      e.preventDefault();
+  //   /* reshuffle when user clicks a filter item */
+  //   $('#filter a').click(function (e) {
+  //     e.preventDefault();
 
-      //  set active class
-      $('#filter a').removeClass('active');
-      $(this).addClass('active');
+  //     //  set active class
+  //     $('#filter a').removeClass('active');
+  //     $(this).addClass('active');
 
-      //  get group name from clicked item
-      var groupName = $(this).attr('data-group');
+  //     //  get group name from clicked item
+  //     var groupName = $(this).attr('data-group');
 
-      //  reshuffle grid
-      shuffleInstance.filter(groupName);
-    });
+  //     //  reshuffle grid
+  //     shuffleInstance.filter(groupName);
+  //   });
 
-  }());
+  // }());
 
   // ---------------------------------------------------------------------------
   //  Magnific Popup
