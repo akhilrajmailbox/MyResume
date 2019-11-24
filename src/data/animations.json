@@ -197,16 +197,6 @@
     , "outclass": "flipOutY"
     }
   , {
-      "selector": "#car-05"
-    , "inclass":  "flipInY"
-    , "outclass": "flipOutY"
-    }
-  , {
-      "selector": "#car-06"
-    , "inclass":  "flipInY"
-    , "outclass": "flipOutY"
-    }
-  , {
       "selector": "#skills .section-title"
     , "inclass":  "fadeInDown"
     , "outclass": "fadeOutDown"
