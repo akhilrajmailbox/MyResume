@@ -147,6 +147,11 @@
     , "outclass": "fadeOutRightBig"
     }
   , {
+      "selector": "#whatido-09"
+    , "inclass":  "bounceInLeft"
+    , "outclass": "bounceOutLeft"
+    }
+  , {
       "selector": "#resume .section-title"
     , "inclass":  "fadeInDown"
     , "outclass": "fadeOutDown"
@@ -171,6 +176,16 @@
     , "inclass":  "flipInY"
     , "outclass": "flipOutY"
     }
+    , {
+      "selector": "#edu-03"
+    , "inclass":  "flipInY"
+    , "outclass": "flipOutY"
+    }
+  , {
+      "selector": "#edu-04"
+    , "inclass":  "flipInY"
+    , "outclass": "flipOutY"
+    }
   , {
       "selector": "#car-01"
     , "inclass":  "flipInY"
@@ -188,16 +203,6 @@
     }
   , {
       "selector": "#car-04"
-    , "inclass":  "flipInY"
-    , "outclass": "flipOutY"
-    }
-  , {
-      "selector": "#car-05"
-    , "inclass":  "flipInY"
-    , "outclass": "flipOutY"
-    }
-  , {
-      "selector": "#car-06"
     , "inclass":  "flipInY"
     , "outclass": "flipOutY"
     }
