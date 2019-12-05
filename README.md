@@ -45,8 +45,8 @@ Full article about what is [Curriculum vitae](http://bit.ly/2QfaIBD)
 
 ### 1. Clone the repository and enter its directory ###
 ```shell
-$ APP_NAME=cv \
-&& git clone https://github.com/tbaltrushaitis/${APP_NAME}.git \
+$ APP_NAME=MyResume \
+&& git clone https://github.com/akhilrajmailbox/${APP_NAME}.git \
 && cd ${APP_NAME}
 ```
 
