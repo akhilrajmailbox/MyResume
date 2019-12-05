@@ -6,6 +6,8 @@ export APP_NAME=${APP_NAME}
 function initialsetup () {
     if [[ ! -z ${APP_NAME} ]] ; then
         cd /opt/${APP_NAME}
+        npm install --save gulp bower gulp-token-replace jimp terser noty -g \
+        && npm install --save popper.js@1.12.9 jquery@1.9.1 bootstrap@4.0.0
     else
         echo -e "APP_NAME need to set...! \n Task aborting...!"
         exit 1
