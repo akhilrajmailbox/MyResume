@@ -44,6 +44,9 @@ if [[ ${1} == build ]] ; then
     initialsetup
     artifactbuild
     webservice
+elif [[ ${1} == rebuild ]] ; then
+    artifactbuild
+    webservice
 else
 cat << EOF
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
