@@ -8,9 +8,9 @@
 mkdir /root/MyCV
 cd /root/MyCV
 git clone https://github.com/akhilrajmailbox/MyResume.git MyResume
-docker run -d -p 80:80 -p 443:443 -v /root/MyCV/letsencrypt:/etc/letsencrypt -v /root/MyCV/REPO_NAME:/opt/REPO_NAME -e "APP_NAME=REPO_NAME" --name myresume --hostname myresume akhilrajmailbox/myresume:latest
+docker run -d -p 80:80 -p 443:443 -v /root/MyCV/letsencrypt:/etc/letsencrypt -v /root/MyCV/MyResume:/opt/MyResume -e "APP_NAME=MyResume" --name myresume --hostname myresume akhilrajmailbox/myresume:latest
 ```
-**change the `REPO_NAME` with your repository name.**
+**change the `MyResume` with your repository cloned location.**
 
 
 **SSL Configuration**
@@ -21,3 +21,9 @@ docker run -d -p 80:80 -p 443:443 -v /root/MyCV/letsencrypt:/etc/letsencrypt -v 
 ```
 certbot --apache -d mycv.mydomain.com
 ```
+
+
+**Google MAPS API**
+
+* login to yur [gcp](https://console.cloud.google.com/google/maps-apis/overview) and get the API keys.
+* update the `config/production.json` file `YOUR_GOOGLE_MAPS_KEY`
