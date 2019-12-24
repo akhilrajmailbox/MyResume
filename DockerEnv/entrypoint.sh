@@ -20,11 +20,22 @@ function artifactbuild() {
     make build
 }
 
+
+function certbotrenew() {
+    while true ; do
+        echo "trying to renew certs"
+        certbot renew
+        echo "sleeping for one day...!"
+        sleep 86400
+    done
+}
+
 function webservice() {
     ## restarting the apache2 services
     /etc/init.d/apache2 stop
     rm -rf /var/www/html/*
     cp -r webroot/* /var/www/html/
+    certbotrenew &
     apachectl -D FOREGROUND
 }
 
