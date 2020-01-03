@@ -14,10 +14,10 @@
       "birth": "October &apos;93"
     , "location": {
         "country": "India"
-      , "city": "Kochi"
+      , "city": "Bengaluru"
       , "full": "@{./country}, @{./city}"
-      , "lat": 9.9312
-      , "lng": 76.2673
+      , "lat": 12.9121
+      , "lng": 77.6446
       }
     , "citizenship": "Indian"
     }
@@ -48,7 +48,7 @@
     }
   , "contacts": {
       "cell": "nothing"
-    , "email": "bWFpbHRvOmFraGlscmFqbWFpbGJveHpAZ21haWwuY29tCg=="
+    , "email": "bWFpbHRvOmFraGlscmFqbWFpbGJveEBnbWFpbC5jb20K"
     }
   }
 }
