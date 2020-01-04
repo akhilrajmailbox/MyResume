@@ -141,6 +141,11 @@
     , "inclass":  "fadeInUpBig"
     , "outclass": "fadeOutLeftBig"
     }
+    , {
+      "selector": "#whatido-08"
+    , "inclass":  "fadeInUpBig"
+    , "outclass": "fadeOutLeftBig"
+    }
   , {
       "selector": "#resume .section-title"
     , "inclass":  "fadeInDown"
