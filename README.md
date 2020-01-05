@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="http://bit.ly/tomascv?ref=readme">
+  <a href="https://akhilraj.me/">
     <img src="assets/img/cv-demo-01.gif" max-width="640px" max-height="360px" alt="Modern CV, Resume and Portfolio website template" />
   </a>
 </p>
@@ -25,7 +25,7 @@ All-in-One-Page site with simple and fully customizable builder.
 ---
 
 ## :computer: Live Demo ##
-See it in action at :point_right: [Modern CV](http://bit.ly/tomascv?ref_domain=github.com&ref_section=docs&ref_file=readme) :point_left:
+See it in action at :point_right: [Modern CV](https://akhilraj.me/) :point_left:
 
 ---
 
@@ -37,7 +37,7 @@ CVs include information on one’s academic background, including teaching exper
 
 A curriculum vitae summary is a one-to-two-page, condensed version of a full curriculum vitae. A CV summary is a way to quickly and concisely convey one’s skills and qualifications. Sometimes large organizations will ask for a `one-page CV` summary when they expect a large pool of applicants.
 
-Full article about what is [Curriculum vitae](http://bit.ly/2QfaIBD)
+Full article about what is [Curriculum vitae](https://www.thebalancecareers.com/cv-vs-resume-2058495)
 
 ---
 
@@ -75,7 +75,7 @@ Use this directory as DocumentRoot in VirtualHost configuration of your web serv
 ### 6. Enjoy  ###
 
 Post a link to your CV on sites where you need your personal profile page should be discovered by other users and that provide a lots of information about your professional skills and experience.
-For example: [Modern CV](http://bit.ly/tomascv)
+For example: [Modern CV](https://akhilraj.me/)
 
 ---
 
@@ -116,21 +116,3 @@ See [CHANGELOG][Changelog] for the history of changes and improvements.
 ---
 
 Read [LICENSE][License] for copyright information
-
----
-
-### :link: More Info ###
-
- - [GitHub: Basic writing and formatting syntax](https://help.github.com/articles/basic-writing-and-formatting-syntax)
- - [BitBucket: markdown Howto](https://bitbucket.org/tutorials/markdowndemo)
- - [Linking containers](https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks.md)
- - [Cross-host linking containers](https://docs.docker.com/engine/admin/ambassador_pattern_linking.md)
- - [Creating an Automated Build](https://docs.docker.com/docker-hub/builds/)
-
----
-> Developed in **May 2016**
-
-:scorpius:
-
-[Changelog]: CHANGELOG.md
-[License]: LICENSE.md
