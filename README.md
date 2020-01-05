@@ -111,8 +111,6 @@ For example: [Modern CV](https://akhilraj.me/)
 - [ ] - implement require.js configuration
 - [ ] - upgrade gulp to v4
 
-See [CHANGELOG][Changelog] for the history of changes and improvements.
-
 ---
 
-Read [LICENSE][License] for copyright information
+Read [LICENSE](https://github.com/akhilrajmailbox/MyResume/blob/master/LICENSE.md) for copyright information
