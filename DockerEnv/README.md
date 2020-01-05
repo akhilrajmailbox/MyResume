@@ -23,7 +23,7 @@ certbot --apache -d mycv.mydomain.com
 ```
 
 
-**Google MAPS API**
+**Google MAPS API** / **Or use iframe**
 
 * login to yur [gcp](https://console.cloud.google.com/google/maps-apis/overview) and get the API keys.
 * update the `config/production.json` file `YOUR_GOOGLE_MAPS_KEY`

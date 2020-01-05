@@ -601,7 +601,7 @@ ul.list-check li::before {
 
 .myphoto {
   position: relative;
-  background: url("../img/photo-frame.png") bottom center no-repeat;
+  /* background: url("../img/photo-frame.png") bottom center no-repeat; */
   background-size: contain;
 }
 .myphoto img {
