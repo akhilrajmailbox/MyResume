@@ -1,7 +1,7 @@
 /*!
  * Project:     cv
  * File:        ./gulp-tasks/clean/build.js
- * Copyright(c) 2016-nowdays Baltrushaitis Tomas <tbaltrushaitis@gmail.com>
+ * Copyright(c) 2016-nowdays Akhil Raj <akhilrajmailbox@gmail.com>
  * License:     MIT
  */
 

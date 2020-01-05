@@ -2,7 +2,7 @@
 /*!
  * Project:     cv
  * File:        ./assets/js/front/index.js
- * Copyright(c) 2016-present Baltrushaitis Tomas <tbaltrushaitis@gmail.com>
+ * Copyright(c) 2016-present Akhil Raj <akhilrajmailbox@gmail.com>
  * License:     MIT
  */
 

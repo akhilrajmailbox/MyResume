@@ -1,7 +1,7 @@
 /*!
  * Project:     cv
  * File:        ./gulp-tasks/sync/build2dist.js
- * Copyright(c) 2016-nowdays Baltrushaitis Tomas <tbaltrushaitis@gmail.com>
+ * Copyright(c) 2016-nowdays Akhil Raj <akhilrajmailbox@gmail.com>
  * License:     MIT
  */
 

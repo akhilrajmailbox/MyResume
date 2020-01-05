@@ -1,7 +1,7 @@
 /*!
  * Project:     cv
  * File:        ./gulpfile.js
- * Copyright(c) 2016-present Baltrushaitis Tomas <tbaltrushaitis@gmail.com>
+ * Copyright(c) 2016-present Akhil Raj <akhilrajmailbox@gmail.com>
  * License:     MIT
  */
 

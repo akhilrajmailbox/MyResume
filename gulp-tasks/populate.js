@@ -1,7 +1,7 @@
 /*!
  * Project:     cv
  * File:        ./gulp-tasks/populate.js
- * Copyright(c) 2018-nowdays Baltrushaitis Tomas <tbaltrushaitis@gmail.com>
+ * Copyright(c) 2018-nowdays Akhil Raj <akhilrajmailbox@gmail.com>
  * License:     MIT
  */
 
