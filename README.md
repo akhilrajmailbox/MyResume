@@ -113,4 +113,11 @@ For example: [Modern CV](https://akhilraj.me/)
 
 ---
 
+
+## Github page for your CV
+
+* clone this repo to your local and make appropriate changes
+* create the artifacts for your github page / attractive resume page with animation by [execute these commands](https://github.com/akhilrajmailbox/MyResume/tree/master/DockerEnv)
+* copy the `webroot` folder contents to `docs` and push it to your repo. `cp -r webroot/* docs/`
+
 Read [LICENSE](https://github.com/akhilrajmailbox/MyResume/blob/master/LICENSE.md) for copyright information
