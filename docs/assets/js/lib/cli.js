@@ -7,7 +7,7 @@
 "use strict";module.exports={build:require("./build"),metadata:require("./metadata"),options:require("./options")};
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - *
  * Package:  cv@0.2.4
- * Build:    production-b4
- * Compiled: 2020-01-05T09:50:39 UTC
- * Commit:   d4c3668bda078b5f24c96172868285e415f4985b
+ * Build:    production-b2
+ * Compiled: 2020-01-08T06:02:16 UTC
+ * Commit:   68e7bb9ec70ff48caf9a898e795ae2397fa4b26e
  */
