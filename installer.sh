@@ -1,7 +1,7 @@
 #!/bin/bash
 ## apt-get update && apt-get install -y curl
 
-export APP_NAME=test-cv
+export APP_NAME=MyResume
 
 function initialsetup () {
     ## installing the dependencies
@@ -18,6 +18,7 @@ function initialsetup () {
 
 
 function artifactbuild() {
+    cd ${APP_NAME}
     make setup
     make build
 }
@@ -26,7 +27,7 @@ function webservice() {
     ## restarting the apache2 services
     /etc/init.d/apache2 stop
     rm -rf /var/www/html/*
-    cp -r webroot/* /var/www/html/
+    cp -r docs/* /var/www/html/
     /etc/init.d/apache2 start
     /etc/init.d/apache2 status
 }
@@ -39,6 +40,9 @@ if [[ ${1} == build ]] ; then
 elif [[ ${1} == rebuild ]] ; then
     artifactbuild
     webservice
+elif [[ ${1} == artifactbuild ]] ; then
+    initialsetup
+    artifactbuild
 else
 cat << EOF
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-

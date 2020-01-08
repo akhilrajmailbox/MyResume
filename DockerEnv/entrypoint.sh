@@ -2,10 +2,10 @@
 ## apt-get update && apt-get install -y curl
 
 export APP_NAME=${APP_NAME}
+cd /opt/${APP_NAME}
 
 function initialsetup () {
     if [[ ! -z ${APP_NAME} ]] ; then
-        cd /opt/${APP_NAME}
         npm install --save gulp bower gulp-token-replace jimp terser noty -g \
         && npm install --save popper.js@1.12.9 jquery@1.9.1 bootstrap@4.0.0
     else
@@ -34,7 +34,7 @@ function webservice() {
     ## restarting the apache2 services
     /etc/init.d/apache2 stop
     rm -rf /var/www/html/*
-    cp -r webroot/* /var/www/html/
+    cp -r docs/* /var/www/html/
     certbotrenew &
     apachectl -D FOREGROUND
 }
@@ -47,6 +47,9 @@ if [[ ${1} == build ]] ; then
 elif [[ ${1} == rebuild ]] ; then
     artifactbuild
     webservice
+elif [[ ${1} == artifactbuild ]] ; then
+    initialsetup
+    artifactbuild
 else
 cat << EOF
 _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-

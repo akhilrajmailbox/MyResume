@@ -27,3 +27,12 @@ certbot --apache -d mycv.mydomain.com
 
 * login to your [gcp](https://console.cloud.google.com/google/maps-apis/overview) and get the API keys.
 * update the `config/production.json` file `YOUR_GOOGLE_MAPS_KEY`
+
+
+**Create the artifacts for your website**
+
+```
+cd /root/
+git clone https://github.com/akhilrajmailbox/MyResume.git MyResume
+docker run --rm -v /root/MyResume:/opt/MyResume -e "APP_NAME=MyResume" --name myresume --hostname myresume akhilrajmailbox/myresume:latest
+```
