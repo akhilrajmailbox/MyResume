@@ -34,5 +34,5 @@ certbot --apache -d mycv.mydomain.com
 ```
 cd /root/
 git clone https://github.com/akhilrajmailbox/MyResume.git MyResume
-docker run --rm -v /root/MyResume:/opt/MyResume -e "APP_NAME=MyResume" --name myresume --hostname myresume akhilrajmailbox/myresume:latest
+docker run --rm -v /root/MyResume:/opt/MyResume -e "APP_NAME=MyResume" --name myresume --hostname myresume akhilrajmailbox/myresume:latest artifactbuild
 ```
