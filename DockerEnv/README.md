@@ -31,6 +31,8 @@ certbot --apache -d mycv.mydomain.com
 
 **Create the artifacts for your website**
 
+**Note** : Either run as root user or clone this repo to `/tmp/` folder then run as non root user
+
 ```
 cd /root/
 git clone https://github.com/akhilrajmailbox/MyResume.git MyResume
