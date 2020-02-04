@@ -4,10 +4,10 @@
  * License:  MIT
  * - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - *
  */
-function ajax(e,n,t,s,a){var o=new XMLHttpRequest;o.open(e,n),o.setRequestHeader("Accept","application/json"),o.onreadystatechange=function(){o.readyState===XMLHttpRequest.DONE&&(200===o.status?s(o.response,o.responseType):a(o.status,o.response,o.responseType))},o.send(t)}window.addEventListener("DOMContentLoaded",(function(){var e=document.getElementById("my-form"),n=document.getElementById("my-form-button"),t=document.getElementById("my-form-status");function success(){e.reset(),n.style="display: none ",t.innerHTML="Thanks!"}function error(){t.innerHTML="Oops! There was a problem. Try again...!"}e.addEventListener("submit",(function(t){t.preventDefault(),n.innerHTML="sending...",n.disabled=!0;var s=new FormData(e);ajax(e.method,e.action,s,success,error)}))}));
+function ajax(e,t,n,o,s){var a=new XMLHttpRequest;a.open(e,t),a.setRequestHeader("Accept","application/json"),a.onreadystatechange=function(){a.readyState===XMLHttpRequest.DONE&&(200===a.status?o(a.response,a.responseType):s(a.status,a.response,a.responseType))},a.send(n)}window.addEventListener("DOMContentLoaded",(function(){var e=document.getElementById("my-form"),t=document.getElementById("my-form-button"),n=document.getElementById("my-form-status");function success(){e.reset(),t.style="display: none ",n.innerHTML="Thank you for reaching out, will get back to you shortly....!"}function error(){n.innerHTML="Oops! There was a problem. Try again...!"}e.addEventListener("submit",(function(n){n.preventDefault(),t.innerHTML="sending...",t.disabled=!0;var o=new FormData(e);ajax(e.method,e.action,o,success,error)}))}));
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - *
  * Package:  cv@0.2.4
  * Build:    production-b2
- * Compiled: 2020-01-08T06:09:51 UTC
- * Commit:   7d3f7048438f130f546afac732ee556d00a1337d
+ * Compiled: 2020-02-04T05:01:44 UTC
+ * Commit:   c4fb2f09d83a552c02811be9d1c0491ba51bb5f9
  */
