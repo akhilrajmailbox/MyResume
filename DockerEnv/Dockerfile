@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER Akhil Raj
+MAINTAINER Chethan R
 ARG APP_NAME=MyResume
 
 RUN apt-get update && apt-get install git vim sudo curl make apache2 software-properties-common -y \
